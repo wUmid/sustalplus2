@@ -677,7 +677,8 @@ section > h3, #sostav .container .text h3 {
 }
 
 #two {
-    padding-bottom: 60px
+    padding-bottom: 60px;
+    margin-top: -140px;
 }
 
 #two .block {
@@ -4023,7 +4024,10 @@ body {
 .clearfix:after {
     clear: both
 }
-
+.navv{
+    top: -80px;
+     background-color: #005576;
+}
 .fixedtop {
     font-family: 'Roboto', sans-serif !important;
     width: 100%;
@@ -4345,6 +4349,8 @@ body {
     .fixedtop__img {
         display: none
     }
+    .navv{
+    top: -130px;
 }
 
 @media screen and (max-width: 319px) {
