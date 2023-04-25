@@ -680,7 +680,9 @@ section > h3, #sostav .container .text h3 {
     padding-bottom: 60px;
     margin-top: -140px;
 }
-
+.t{
+    color: white;
+}
 #two .block {
     position: relative;
     display: inline-block
