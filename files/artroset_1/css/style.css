@@ -744,7 +744,7 @@ section > h3, #sostav .container .text h3 {
 
 #two .block .day p {
     font-family: 'Roboto', sans-serif;
-    color: #ef7309;
+    color: #005576;
     font-size: 20px;
     font-weight: 400;
     vertical-align: top;
@@ -772,7 +772,8 @@ section > h3, #sostav .container .text h3 {
     display: -ms-flex;
     display: -o-flex;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    padding-bottom: -70px;
 }
 
 .two-bottom .block-little {
@@ -788,7 +789,7 @@ section > h3, #sostav .container .text h3 {
     background-image: url('../img/icon-3.webp');
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #f67a0c;
+    background-color: #005576;
     height: 92px;
     width: 92px
 }
@@ -804,17 +805,17 @@ section > h3, #sostav .container .text h3 {
 
 .two-bottom .block-little .text h3 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 18px;
     text-transform: uppercase;
     margin-top: 20px;
     margin-bottom: 0;
-    color: #f67a0c
+    color: #005576
 }
 
 .two-bottom .text p {
     margin: 0;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400
@@ -823,7 +824,7 @@ section > h3, #sostav .container .text h3 {
 .webp .two-bottom .block-big {
     width: 784px;
     height: 260px;
-    background-image: url('../img/big.webp');
+    background-image: url('');
     background-position: top center;
     display: inline-block
 }
@@ -863,6 +864,7 @@ section > h3, #sostav .container .text h3 {
     height: 100px;
     padding: 20px 30px 20px 30px;
     background-color: white;
+    opacity: 0.8;
     margin-bottom: 40px;
     align-items: center
 }
@@ -915,7 +917,6 @@ section > h3, #sostav .container .text h3 {
     background-image: url('../img/bgi.webp');
     background-repeat: no-repeat;
     background-position: center 60px;
-    background-repeat: no-repeat;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -950,7 +951,9 @@ section > h3, #sostav .container .text h3 {
 }
 
 #four .container .block .text {
-    width: 280px
+    width: 280px;
+    background-color: white;
+    opacity: 0.8;
 }
 
 #four .container .block .text h3 {
@@ -959,6 +962,7 @@ section > h3, #sostav .container .text h3 {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     text-transform: uppercase
+
 }
 
 #four .container .block .number {
@@ -979,7 +983,7 @@ section > h3, #sostav .container .text h3 {
 }
 
 #four .container .block:nth-of-type(2n+1) {
-    background-color: #f7f7f7
+    opacity: 1;
 }
 
 #four .container .block:first-of-type {
@@ -2453,7 +2457,7 @@ footer .logo {
         -ms-flex-wrap: wrap;
         -o-flex-wrap: wrap;
         flex-wrap: wrap;
-        background-image: none
+
     }
 
     #now .right img {
@@ -2475,7 +2479,7 @@ footer .logo {
         -ms-flex-wrap: wrap;
         -o-flex-wrap: wrap;
         flex-wrap: wrap;
-        background-image: none
+
     }
 
     #four .container .block .text h3 {
