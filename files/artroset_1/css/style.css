@@ -914,7 +914,7 @@ section > h3, #sostav .container .text h3 {
 }
 
 .webp #four .container:first-of-type {
-    background-image: url('../img/bgi.webp');
+    background-image: url('../img/123.png');
     background-repeat: no-repeat;
     background-position: center 60px;
     display: -webkit-flex;
@@ -965,6 +965,65 @@ section > h3, #sostav .container .text h3 {
 
 }
 
+#sec-3 {
+  background: url('../img/sec-3-bg.jpg') center no-repeat;
+  -moz-background-size: cover;
+    -o-background-size: cover;
+       background-size: cover;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  padding-top: 40px;
+    padding-bottom: 70px;}
+  #sec-3 .content {
+    max-width: 800px; }
+  #sec-3 h2 {
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase; }
+  #sec-3 .clarify, #sec-3 .img-pack {
+    max-width: 370px; }
+  #sec-3 .clarify {
+    font-size: 20px;
+    margin-top: 45px; }
+    #sec-3 .clarify p:not(:first-child) {
+      margin-top: 30px; }
+  #sec-3 .img-pack {
+    margin-top: 50px; }
+    #sec-3 .img-pack img {
+      display: block;
+      margin: 0 auto; }
+  #sec-3 .btn-wrap {
+    text-align: center;
+    position: relative;
+    top: 30px; }
+
+@media only screen and (max-width: 1366px) {
+  #sec-3 h2 {
+    font-size: 26px;
+    line-height: 1.2em; } }
+@media only screen and (max-width: 900px) {
+    #top-sec .flex-wrap > div {
+    width: 46%;
+}
+#top-sec .flex-wrap .right-side {
+    width: 52%;
+}
+}
+
+@media only screen and (max-width: 767px) {
+
+  #sec-3 h2 {
+    font-size: 24px; }
+    #sec-3 h2 span {
+      display: inline; }
+  #sec-3 .clarify {
+    font-size: 18px; }
+  #sec-3 .img-pack {
+    max-width: 200px; }
+    #sec-3 .img-pack img {
+      max-width: 100%; } }
+
 #four .container .block .number {
     text-align: center;
     border-radius: 7px;
@@ -977,6 +1036,205 @@ section > h3, #sostav .container .text h3 {
     height: 70px;
     line-height: 70px
 }
+
+#sec-5 {
+    margin-top: -40px;
+     }
+
+#sec-5 {
+  padding: 100px 0 0; }
+  #sec-5 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px; }
+  #sec-5 .list ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+  #sec-5 .list li {
+    margin-top: 70px;
+    width: 47%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+       -moz-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+       -moz-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+  #sec-5 .list .ingred-img {
+    margin-right: 20px;
+    width: 230px;
+    min-width: 230px;
+  }
+    #sec-5 .list .ingred-img img {
+      max-width: 100%;
+    }
+  #sec-5 .list .caption {
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  #sec-5 .list .clarify {
+    font-size: 16px; }
+  #sec-5 .order-label {
+    text-align: center;
+    margin: 90px auto 0;
+    padding: 0 60px;
+    max-width: 900px;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(63, 152, 211, 0.25)), to(transparent));
+    background: -webkit-linear-gradient(bottom, rgba(63, 152, 211, 0.25), transparent);
+    background: -moz-linear-gradient(bottom, rgba(63, 152, 211, 0.25), transparent);
+    background: -o-linear-gradient(bottom, rgba(63, 152, 211, 0.25), transparent);
+    background: linear-gradient(to top, rgba(63, 152, 211, 0.25), transparent); }
+    #sec-5 .order-label .flex-wrap {
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+         -moz-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+    #sec-5 .order-label .logo {
+      width: 340px;
+      margin: 0 auto; }
+      #sec-5 .order-label .logo img {
+        max-width: 100%; }
+    #sec-5 .order-label .caption {
+      margin-top: 40px;
+      font-size: 28px;
+      text-transform: uppercase;
+      font-weight: 700; }
+      #sec-5 .order-label .caption .big {
+        font-size: 40px; }
+    #sec-5 .order-label .notion {
+      margin-top: 25px;
+      font-weight: 600; }
+    #sec-5 .order-label .btn-wrap {
+      position: relative;
+      top: 30px; }
+    #sec-5 .order-label + .remain {
+        text-align: center;
+        margin-top: 50px;
+    }
+    #sec-5 .order-label + .remaining {
+      text-align: center;
+      margin-top: 50px; }
+
+@media only screen and (max-width: 1366px) {
+  #sec-5 h2 span {
+    font-size: 21px; }
+  #sec-5 .list .ingred-img {
+    width: 150px;
+    max-width: 150px;
+    min-width: 150px; }
+  #sec-5 .list .caption {
+    font-size: 16px; }
+  #sec-5 .order-label .caption {
+    font-size: 22px; } }
+
+@media only screen and (max-width: 991px) {
+  #sec-5 h2 span {
+    font-size: 17px; }
+  #sec-5 .list ul {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
+  #sec-5 .list li {
+    text-align: center;
+    width: 43%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    #sec-5 .list li .ingred-img {
+      margin-right: 0;
+      margin-bottom: 10px; }
+    #sec-5 .list li .caption {
+      text-align: center; }
+  #sec-5 .order-label .caption {
+    font-size: 16px; } }
+
+@media only screen and (max-width: 767px) {
+  #sec-5 .remain {
+      font-size: 20px;
+      margin-top: 50px;
+      text-align: center;
+  }
+
+  #sec-5 .list ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    #sec-5 .list ul li {
+      width: 100%; }
+  #sec-5 .list .ingred-img {
+    max-width: 200px;
+    min-width: 200px;
+    width: 200px;
+  }
+  #sec-5 .list .caption {
+    font-size: 20px;
+      margin-right: 40px;
+  }
+    #sec-5 .list .caption p {
+      display: inline; }
+  #sec-5 .list .clarify {
+    font-size: 20px;
+      margin-right: 20px;
+  }
+  #sec-5 h2 span {
+    font-size: 21px; }
+  #sec-5 .order-label .flex-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  #sec-5 .order-label {
+    padding: 0 20px; }
+  #sec-5 .order-label .caption {
+    font-size: 20px; }
+  #sec-5 .order-label .notion {
+    font-size: 18px; }
+    #sec-5 .order-label .notion p {
+      display: inline; }
+  #sec-5 .order-label + .remaining {
+    font-size: 18px; } }
+
 
 #four .container .right .block .text {
     margin-left: 10px
