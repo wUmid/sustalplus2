@@ -1138,6 +1138,7 @@ section > h3, #sostav .container .text h3 {
   }
     #sec-5 .list .ingred-img img {
       max-width: 100%;
+        margin-left: -35px;
     }
   #sec-5 .list .caption {
     font-size: 27px;
