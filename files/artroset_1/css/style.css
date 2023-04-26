@@ -529,11 +529,11 @@ section > h3, #sostav .container .text h3 {
 .form {
     width: 360px;
     margin-top: -228px;
-    background-color: #fff;
+    background-color: rgb(235, 235, 235);
     z-index: 9;
     padding: 0 10px;
     position: relative;
-    border: 3px dashed #ba294e
+
 }
 
 .form-top {
@@ -591,16 +591,61 @@ section > h3, #sostav .container .text h3 {
 
 .form-center input {
     width: 100%;
-    height: 40px;
+    height: 50px;
     margin-bottom: 10px;
     padding-left: 50px;
-    background-color: transparent;
-    border: 1px solid #000;
+    background-color: white;
+
     border-radius: 5px;
     background-position: 15px center;
     background-repeat: no-repeat;
-    color: #000000FF
+
+
 }
+
+.form textarea[name="text"] {
+    background-image: url(../img/input_text.png);
+    background-repeat: no-repeat;
+    background-position: 5% 10%;
+}
+.pulse {border: 2px solid rgb(255 1 1);
+  border-radius: 50%;
+  background: #d01818;
+  box-shadow: 0 0 0 rgb(208, 24, 24);
+  animation: pulse 2s  infinite cubic-bezier(0.35, 0.05, 0.55, 0.95);
+}
+.pulse:hover {
+  animation: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgb(208, 24, 24);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgb(208, 24, 24);
+    box-shadow: 0 0 0 0 rgb(208, 24, 24);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+      box-shadow: 0 0 0 30px rgba(204,169,44, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+
+
+
 
 .form-center input[type="submit"] {
     padding: 0;
@@ -837,7 +882,13 @@ section > h3, #sostav .container .text h3 {
     display: inline-block
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+    #two{
+        margin-bottom: -220px;
+    }
+}
 .webp #now {
+    margin-top: 200px;
     padding-bottom: 20px;
     background-color: #f7f7f7;
     background-image: url('../img/bgi-2.webp');
@@ -846,6 +897,7 @@ section > h3, #sostav .container .text h3 {
 }
 
 .no-webp #now {
+
     padding-bottom: 20px;
     background-color: #f7f7f7;
     background-image: url('../img/bgi-2.png');
@@ -1426,7 +1478,7 @@ section > h3, #sostav .container .text h3 {
 }
 
 #form, .ever-popup__body {
-    background-color: #454549
+    background-color: #8cb2d0
 }
 
 #form .container .flex, .ever-popup__body .flex {
@@ -1459,7 +1511,7 @@ section > h3, #sostav .container .text h3 {
 #form .taimer, .ever-popup__body .taimer {
     width: 366px;
     height: 190px;
-    background-color: #36363b;
+    background-color: #125e98;
     margin-top: 20px;
     margin-bottom: 20px;
     border: 0;
@@ -1771,10 +1823,10 @@ section > h3, #sostav .container .text h3 {
 }
 
 #nine {
-    background-color: #454549;
+    background-color: #1187b2;
     padding-bottom: 20px
 }
-
+#125e98
 .nine-top, .nine-bottom {
     display: -webkit-flex;
     display: -moz-flex;
@@ -2699,9 +2751,7 @@ footer .logo {
         margin-bottom: 0
     }
 
-    .webp #now {
-        background-image: none
-    }
+
 
     #now .block {
         width: 100%;
@@ -4706,7 +4756,9 @@ body {
 .loader {
     z-index: 200001
 }
-
+.btnbtn{
+    width: 100%;
+}
 .modal {
     z-index: 900001;
     overflow: auto;
@@ -7166,17 +7218,125 @@ a, blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, 
     margin-bottom: 10px
 }
 
-.errorMessage {
-    font-size: 15px;
-    background: rgba(255, 0, 0, 0.64);
-    color: #fff;
-    text-align: center;
-    padding: 5px 10px;
-    position: absolute;
-    margin: 10px 0 0;
-    z-index: 999
-}
+
 
 form input {
     position: relative
 }
+
+.form {
+    font-family: inherit;
+
+}
+
+.form form {
+    width: inherit;
+}
+
+.form input, select, textarea{
+    margin: 10px 0px!important   ;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(15, 65, 105);
+    background-color: white;
+    padding-left: 45px;
+    font-size: 15px!important;
+    line-height: 25px;
+    width: 90%;
+    height: 44px;
+
+}
+
+.form input[name="name"] {
+    background-image: url(../img/input_name.png);
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+}
+
+.form input[name="phone"] {
+    background-image: url(../img/input_phone.png);
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+}
+.form textarea[name="text"] {
+    background-image: url(../img/input_text.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 5% 10%;
+}
+
+.form input::-webkit-input-placeholder {
+    font-size: 15px;
+    line-height: 25px;
+    color: #151313;
+}
+
+.form input:-ms-input-placeholder {
+    font-size: 15px;
+    ine-height: 25px;
+    color: #080909;
+}
+
+.form input::placeholder {
+    font-size: 15px;
+    ine-height: 25px;
+    color: #111111;
+}
+
+.form textarea::placeholder {
+    font-size: 15px;
+    ine-height: 25px;
+    color: #111111;
+}
+
+.form .submit {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding: 0;
+    background: #125e98;
+    width: 300px;
+    height: 70px;
+    border-radius: 40px;
+    border-color: transparent;
+    border-width: 0px;
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.969);
+    text-transform: uppercase;
+    line-height: 1.25;
+    letter-spacing: -1.3px;
+    text-align: center;
+    -webkit-box-shadow: inset 1px 1px 4px 2px #0f4169;
+    box-shadow: inset 1px 1px 4px 2px #0f4169;
+}
+
+.form .security {
+    position: relative;
+    padding-left: 40px;
+    padding-right: 15px;
+    color: #328692;
+    font-size: 13px;
+    line-height: 1.1;
+}
+
+
+@media screen and (max-width: 497px) {
+    .form .submit {
+        font-size: 20px;
+    }
+    .form .security {
+        padding-left: 40px;
+        padding-right: 10px;
+        font-size: 12px;
+    }
+    .form form {
+    margin-top: -50px;
+    width: inherit;
+}
+}
+
+
+
+
+
