@@ -1479,7 +1479,8 @@ section > h3, #sostav .container .text h3 {
 }
 
 #form, .ever-popup__body {
-    background-color: #8cb2d0
+    background-image: url('../img/bg23.jpg');
+    background-size: cover;
 }
 
 #form .container .flex, .ever-popup__body .flex {
