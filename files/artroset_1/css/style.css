@@ -1023,6 +1023,11 @@ section > h3, #sostav .container .text h3 {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+    .sertifikat img {
+        width: 250px;
+        border: 4px solid #1a1a6e;
+
+    }
     #two{
         margin-bottom: -220px;
     }
