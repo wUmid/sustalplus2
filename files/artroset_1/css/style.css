@@ -207,7 +207,7 @@ input[type="text"] {
 
 
 section > h2, #sostav .container .text h2 {
-    padding-top: 40px;
+    padding-top: 80px;
     text-align: center;
     font-size: 36px;
     font-weight: 500;
@@ -2876,7 +2876,8 @@ footer .logo {
     section > h2, #last h2, #zakaz h2, #sposob h2, #statist h2, #sostav .container .text h2, #otziv .container > h2 {
         padding-left: 10px;
         padding-right: 10px;
-        font-size: 24px
+        font-size: 24px;
+        padding-top: 40px
     }
 
     section > h3, #sostav .container .text h3, #otziv .container > h3 {
@@ -2889,7 +2890,6 @@ footer .logo {
         -ms-flex-wrap: wrap;
         -o-flex-wrap: wrap;
         flex-wrap: wrap;
-        s
     }
 
     #two .block {
