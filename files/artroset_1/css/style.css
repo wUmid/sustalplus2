@@ -207,7 +207,7 @@ input[type="text"] {
 
 
 section > h2, #sostav .container .text h2 {
-    padding-top: 100px;
+    padding-top: 10cd0px;
     text-align: center;
     font-size: 36px;
     font-weight: 500;
@@ -864,7 +864,7 @@ section > h3, #sostav .container .text h3 {
 
 #two {
     padding-bottom: 60px;
-    margin-top: -140px;
+    margin-top: -20px;
 }
 .t{
     color: white;
@@ -1035,6 +1035,7 @@ section > h3, #sostav .container .text h3 {
     }
     #two{
         margin-bottom: -220px;
+        margin-top: -140px;
     }
 }
 .webp #now {
