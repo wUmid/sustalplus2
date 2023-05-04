@@ -4673,8 +4673,11 @@ body {
 .comp_block {
     display: flex
 }
-
+.navrasm{
+        visibility: hidden;
+    }
 @media screen and (max-width: 1119px) {
+
     body {
         top: 63px
     }
@@ -4811,6 +4814,12 @@ body {
 
     footer p {
         margin-top: 0 !important
+    }
+    .navrasm{
+        visibility: visible;
+    }
+    .navrasm2{
+        display: none;
     }
 }
 
