@@ -62,3 +62,4 @@ function lastpack(typecase, numpack, caseClass) {
 
     var timer = setInterval(intervalStart, 0, numpack);
 }
+
